@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+
+    <title>My Portfolio</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav_logo">Samrood</a>
+
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list grid">
+                    <li class="nav_item">
+                        <a href="#home" class="nav_link active-link">
+                            <i class="uil uil-estate nav_icon"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#about" class="nav_link">
+                            <i class="uil uil-user nav_icon"></i> About
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#skills" class="nav_link">
+                            <i class="uil uil-file-alt nav_icon"></i> Skills
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#services" class="nav_link">
+                            <i class="uil uil-briefcase nav_icon"></i> Services
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#portfolio" class="nav_link">
+                            <i class="uil uil-scenery nav_icon"></i> Portfolio
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#contact" class="nav_link">
+                            <i class="uil uil-message nav_icon"></i> Contactme
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav_close" id="nav-close"></i>
+            </div>
+            <div class="nav_btns">
+                <!-- Theme change button -->
+
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                <div class="nav_toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home_container container grid">
+                <div class="home_content grid">
+                    <div class="home_social">
+                        <a href="https://www.linkedin.com/in/samroodjahan" target="_blnk" class="home_social-icon">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+                        <a href="https://www.facebook.com/samrood.jahan" target="_blnk" class="home_social-icon">
+                            <i class="uil uil-facebook"></i>
+                        </a>
+                        <a href="https://github.com/Samroodjahan" target="_blnk" class="home_social-icon">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+                    </div>
+                    <div class="home_img">
+                        <svg class="home_blob" viewBox="0 0 200 187" xmlns="" xmlns:xlink="">
+                            <mask id="mask0" mask-type="alpha">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                                <image class="home_blob-img" x="21" xlink:href="assets/img/dp1.png" />
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="home_data">
+                        <h1 class="home_title">Hi, I'm Samrood Jahan</h1>
+                        <h3 class="home_subtitle">Fullstack Web Developer</h3>
+                        <p class="home_description">Person with a strong passion for developing web
+                            application and working towards my vision. Career Objective is to pursue a job that will
+                            enhance my skills and at the same time be able to contribute to the company's growth. To
+                            work in a globally competitive on challenging assignments that shall yield the twin benefits
+                            of the job satisfaction and a steady- paced professional growth. ”A Learner for Life”</p>
+                        <a href="#contact" class="button button--flex">
+                            Contact Me<i class="uil uil-message button_icon"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="home_scroll">
+                    <a href="#about" class="home_scroll-button button--flex" id="scroll-down">
+                        <i class="uil uil-mouse-alt home_scroll-mouse"></i>
+                        <span class="home_scroll-name">Scroll down</span>
+                        <i class="uil uil-arrow-down home_scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <h2 class="section_title">About Me</h2>
+            <span class="section_subtitle">My introduction</span>
+
+            <div class="about_container container grid">
+                <img src="assets/img/portfolio1.jpg" alt="" class="about_img" />
+
+                <div class="abot_data">
+                    <p class="about_description">Full Stack Web Developer, with immense passion </p>
+                    <div class="about_info">
+                        <div>
+                            <span class="about_info-title">1</span>
+                            <span class="about_info-name">year <br />experiance</span>
+                        </div>
+                        <div>
+                            <span class="about_info-title">4+</span>
+                            <span class="about_info-name">completed <br />project</span>
+                        </div>
+                        <div>
+                            <span class="about_info-title">1</span>
+                            <span class="about_info-name">company <br />worked</span>
+                        </div>
+                    </div>
+                    <div class="about_buttons">
+                        <a download="" href="assets/CV.pdf" class="button button--flex">
+                            Download CV<i class="uil uil-download-alt button_icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== SKILLS ====================-->
+        <section class="skills section" id="skills">
+            <h2 class="section_title" id="skill">Skills</h2>
+            <span class="section_subtitle">My technical level</span>
+
+            <div class="skills_container container grid">
+                <div>
+                    <!--==================== SKILLS 1 ====================-->
+                    <div class="skills_content skills_open">
+                        <div class="skills_header">
+                            <i class="uil uil-brackets-curly skills_icon"></i>
+
+                            <div>
+                                <h1 class="skills_title">Frontend</h1>
+
+                            </div>
+                            <i class="uil uil-angle-down skills_arrow"></i>
+                        </div>
+                        <div class="skills_list grid">
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">HTML</h3>
+                                    <span class="skills_number">90%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_html"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">CSS</h3>
+                                    <span class="skills_number">85%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_css"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">BOOTSTRAP</h3>
+                                    <span class="skills_number">85%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_bootstrap"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">JAVASCRIPT</h3>
+                                    <span class="skills_number">80%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_js"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!--==================== SKILLS 2 ====================-->
+                    <div class="skills_content skills_close">
+                        <div class="skills_header">
+                            <i class="uil uil-server-network skills_icon"></i>
+
+                            <div>
+                                <h1 class="skills_title">Backend</h1>
+
+                            </div>
+                            <i class="uil uil-angle-down skills_arrow"></i>
+                        </div>
+                        <div class="skills_list grid">
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">PYTHON</h3>
+                                    <span class="skills_number">90%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_python"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">DJANGO</h3>
+                                    <span class="skills_number">80%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_django"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <!--==================== SKILLS 3 ====================-->
+                    <div class="skills_content skills_close">
+                        <div class="skills_header">
+                            <i class="uil uil-swatchbook skills_icon"></i>
+
+                            <div>
+                                <h1 class="skills_title">Extra</h1>
+
+                            </div>
+                            <i class="uil uil-angle-down skills_arrow"></i>
+                        </div>
+                        <div class="skills_list grid">
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">PHOTOSHOP</h3>
+                                    <span class="skills_number">80%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_photoshop"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">CANVA</h3>
+                                    <span class="skills_number">90%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_canva"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">IMOVIE</h3>
+                                    <span class="skills_number">95%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_imovie"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== QUALIFICATION ====================-->
+        <section class="qualification section">
+            <h2 class="section_title">Qualification</h2>
+            <span class="section_subtitle">My personal journey</span>
+
+            <div class="qualification_container container">
+                <div class="qualification_tabs">
+                    <div class="qualification_button button--flex qualification_active" data-target="#education">
+                        <i class="uil uil-graduation-cap qualification_icon"></i> Educaton
+                    </div>
+
+                    <div class="qualification_button button--flex" data-target="#work">
+                        <i class="uil uil-briefcase-alt qualification_icon"></i> Work
+                    </div>
+                </div>
+
+                <div class="qualification_sections">
+                    <!--==================== QUALIFICATION CONTENT 1====================-->
+                    <div class="qualificaton_content qualification_active" data-content id="education">
+                        <!--==================== QUALIFICATION 1====================-->
+                        <div class="qualification_data">
+                            <div>
+                                <h3 class="qualification_title">Python Full Stack Development</h3>
+                                <span class="qualification_subtitle">Luminar Technolab</span>
+                                <div class="qualification_calender">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    Feb 2022 - Present
+                                </div>
+                            </div>
+                            <div>
+                                <span class="qualification_rounder"></span>
+                                <span class="qualification_line"></span>
+                            </div>
+                        </div>
+
+                        <!--==================== QUALIFICATION 2====================-->
+                        <div class="qualification_data">
+                            <div></div>
+                            <div>
+                                <span class="qualification_rounder"></span>
+                                <span class="qualification_line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification_title">BA English</h3>
+                                <span class="qualification_subtitle">Tamil University</span>
+                                <div class="qualification_calender">
+                                    <i class="uil uil-calendar-alt"></i> 2015 - 2018
+                                </div>
+                            </div>
+                        </div>
+                        <!--==================== QUALIFICATION 3====================-->
+                        <div class="qualification_data">
+                            <div>
+                                <h3 class="qualification_title">A-Levels</h3>
+                                <span class="qualification_subtitle">M.E.S Cental School</span>
+                                <div class="qualification_calender">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2014 - 2015
+                                </div>
+                            </div>
+                            <div>
+                                <span class="qualification_rounder"></span>
+                                <span class="qualification_line"></span>
+                            </div>
+                        </div>
+                        <!--==================== QUALIFICATION 4====================-->
+                        <div class="qualification_data">
+                            <div></div>
+                            <div>
+                                <span class="qualification_rounder"></span>
+                                <!-- <span class="qualification_line"></span> -->
+                            </div>
+
+                            <div>
+                                <h3 class="qualification_title">GCSE</h3>
+                                <span class="qualification_subtitle">M.E.S Cental School</span>
+                                <div class="qualification_calender">
+                                    <i class="uil uil-calendar-alt"></i> 2012 - 2013
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!--==================== QUALIFICATION CONTENT 2 ====================-->
+                    <div class="qualificaton_content" data-content id="work">
+                        <!--==================== QUALIFICATION 1====================-->
+                        <div class="qualification_data">
+                            <div>
+                                <h3 class="qualification_title">Self Study</h3>
+                                <span class="qualification_subtitle">Home</span>
+                                <div class="qualification_calender">
+                                    <i class="uil uil-calendar-alt"></i> Jan 2021 - Jan 2022
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification_rounder"></span>
+                                <span class="qualification_line"></span>
+                            </div>
+                        </div>
+                        <div class="qualification_data">
+                            <div></div>
+                            <div>
+                                <span class="qualification_rounder"></span>
+                                <span class="qualification_line"></span>
+                            </div>
+                            <div>
+                                <h3 class="qualification_title">Team Member(Part-time)</h3>
+                                <span class="qualification_subtitle">Cakebox</span>
+                                <div class="qualification_calender">
+                                    <i class="uil uil-calendar-alt"></i> Feb 2021 - Oct 2021
+                                </div>
+                            </div>
+                        </div>
+                        <div class="qualification_data">
+                            <div>
+                                <h3 class="qualification_title">Junior Full Stack Deveoper</h3>
+                                <span class="qualification_subtitle">Luminar Technolab</span>
+                                <div class="qualification_calender">
+                                    <i class="uil uil-calendar-alt"></i> Oct 2019 - Oct 2020
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification_rounder"></span>
+                                <!-- <span class="qualification_line"></span> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== SERVICES ====================-->
+        <section class="services section" id="services"></section>
+
+        <!--==================== PORTFOLIO ====================-->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section_title">Portfolio</h2>
+            <span class="section_subtitle">Recent works</span>
+
+            <div class="portfolio_container container swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <!--==================== PORTFOLIO 1 ====================-->
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="./assets/img/proj2.png" alt="" class="portfolio_img">
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">Coffee Website</h3>
+                            <p class="portfolio_description">Responsive Website with Bootstrap</p>
+                            <a href="https://samroodjahan.github.io/coffee/" class="button button--flex button--small portfolio_button">View
+                                <i class="uil uil-arrow-right button_icon"></i>
+                            </a>
+
+                        </div>
+                    </div>
+
+                    <!--==================== PORTFOLIO 2 ====================-->
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="./assets/img/proj1.png" alt="" class="portfolio_img">
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">Bakery Website</h3>
+                            <p class="portfolio_description">Responsive Website with Bootstrap</p>
+                            <a href="https://samroodjahan.github.io/bakery/" class="button button--flex button--small portfolio_button">View
+                                <i class="uil uil-arrow-right button_icon"></i>
+                            </a>
+
+                        </div>
+                    </div>
+
+                    <!--==================== PORTFOLIO 3 ====================-->
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="./assets/img/proj3.png" alt="" class="portfolio_img">
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">Social Media</h3>
+                            <p class="portfolio_description">Responsive Website with Bootstrap</p>
+                            <a href="" class="button button--flex button--small portfolio_button">View
+                                <i class="uil uil-arrow-right button_icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add arrow -->
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+                <!-- add pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!--==================== PROJECT IN MIND ====================-->
+        <!-- <section class="project section"></section> -->
+
+        <!--==================== TESTIMONIAL ====================-->
+        <!-- <section class="testimonial section"></section> -->
+
+        <!--==================== CONTACT ME ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section_title">Contact Me</h2>
+            <span class="section_subtitle">Get in touch</span>
+
+            <div class="contact_container container grid">
+                <div>
+                    <div class="contact_information">
+                        <i class="uil uil-phone contact_icon"></i>
+
+                        <div>
+                            <h3 class="contact_title">Call Me</h3>
+                            <span class="contact_subtitle">+44 747 101 5737</span>
+                        </div>
+                    </div>
+
+                    <div class="contact_information">
+                        <i class="uil uil-envelope contact_icon"></i>
+
+                        <div>
+                            <h3 class="contact_title">Email</h3>
+                            <span class="contact_subtitle">samroodjahanpm@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="contact_information">
+                        <i class="uil uil-map-marker contact_icon"></i>
+
+                        <div>
+                            <h3 class="contact_title">Location</h3>
+                            <span class="contact_subtitle">London, United Kingdom</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <form action="" class="contact_form grid"></form>
+                    <div class="contact_inputs grid">
+                        <div class="contact_content">
+                            <label for="" class="contact_label">Name</label>
+                            <input type="text" class="contact_input" />
+                        </div>
+                        <div class="contact_content">
+                            <label for="" class="contact_label">Email</label>
+                            <input type="email" class="contact_input" />
+                        </div>
+                    </div>
+                    <br />
+                    <div class="contact_content">
+                        <label for="" class="contact_label">Message</label>
+                        <textarea name="" id="" cols="0" rows="7" class="contact_input"></textarea>
+                    </div>
+                </div>
+
+                <div>
+                    <a href="#" class="button button--flex">
+                        Send Message
+                        <i class="uil uil-message button_icon"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer_bg">
+            <div class="footer_container container grid">
+                <div>
+                    <h1 class="footer_title">Samrood</h1>
+                    <span class="footer_subtitle">Full Stack Developer</span>
+                </div>
+
+                <ul class="footer_links">
+                    <li>
+                        <a href="#about" class="footer_link">About</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="footer_link">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer_link">Contactme</a>
+                    </li>
+                </ul>
+
+                <div class="footer_socials">
+                    <a href="https://www.facebook.com/samrood.jahan" target="_blank" class="footer_social">
+                        <i class="uil uil-facebook-f"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/samroodjahan/" target="_blank" class="footer_social">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+
+                    <a href="https://github.com/Samroodjahan" target="_blank" class="footer_social">
+                        <i class="uil uil-github-alt"></i>
+                    </a>
+                </div>
+            </div>
+
+            <p class="footer_copy">&#169; sm. All right reserved</p>
+        </div>
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup_icon"></i>
+    </a>
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
